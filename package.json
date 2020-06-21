@@ -1,0 +1,26 @@
+{
+	"name": "event-form",
+	"version": "0.0.0",
+	"description": "An event form to showcase react-hook-form",
+	"main": "src/index.js",
+	"author": "Jon Haddow <haddowjon@protonmail.com> (https://jon.haddow.me)",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "parcel src/index.html"
+	},
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-datepicker": "^3.0.0",
+		"react-dom": "^16.13.1",
+		"react-hook-form": "^5.7.2"
+	},
+	"devDependencies": {
+		"eslint": "^7.3.0",
+		"eslint-config-jonhaddow": "^1.1.1",
+		"husky": "^4.2.5",
+		"lint-staged": "^10.2.11",
+		"parcel-bundler": "^1.12.4",
+		"prettier": "^2.0.5"
+	}
+}
